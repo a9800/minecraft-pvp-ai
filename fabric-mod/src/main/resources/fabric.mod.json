@@ -3,14 +3,14 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "AIMod",
+  "description": "AI Minecraft Mod",
   "authors": [
     "Me!"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://humaidq.ae",
+    "sources": "https://github.com/a9800/minecraft-pvp-ai"
   },
 
   "license": "CC0-1.0",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "ae.humaidq.aimod.AIModKt::init"
     ]
   },
   "mixins": [
